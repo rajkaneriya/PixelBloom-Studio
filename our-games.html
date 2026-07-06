@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Games | PixelBloom</title>
+    <meta
+      name="description"
+      content="Explore our library of fun and engaging mobile games."
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav">
+        <a href="index.html" class="nav__logo">PixelBloom</a>
+        <button class="nav__toggle" aria-label="Toggle Navigation">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About Us</a></li>
+          <li>
+            <a href="our-games.html" class="nav__link nav__link--active"
+              >Our Games</a
+            >
+          </li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+          <li>
+            <a href="privacy-policy.html" class="nav__link">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Page Header -->
+      <section
+        class="section"
+        style="
+          background-color: var(--color-secondary);
+          text-align: center;
+          padding: 4rem 0;
+        "
+      >
+        <div class="container">
+          <h1 style="color: var(--color-text-main); font-size: 3rem">
+            Our Games
+          </h1>
+          <p
+            style="
+              font-size: 1.2rem;
+              max-width: 600px;
+              margin: 0 auto;
+              color: var(--color-text-main);
+            "
+          >
+            Discover your next favorite pastime.
+          </p>
+        </div>
+      </section>
+
+      <!-- Games Grid -->
+      <section class="section">
+        <div class="container">
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              gap: 2rem;
+            "
+          >
+            <!-- Game Card 1 -->
+            <div class="game-card">
+              <div
+                class="game-card__image"
+                style="
+                  background: linear-gradient(
+                    45deg,
+                    #ff9a9e 0%,
+                    #fecfef 99%,
+                    #fecfef 100%
+                  );
+                "
+              >
+                [ Game Image ]
+              </div>
+              <div class="game-card__content">
+                <h3 class="game-card__title">Color Burst Phone</h3>
+                <p class="game-card__desc">
+                  An educational, vibrant simulation game designed to teach
+                  colors and sounds in a fun, interactive way.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn--primary"
+                  style="display: block; text-align: center; padding: 10px"
+                  >Get on Google Play</a
+                >
+              </div>
+            </div>
+
+            <!-- Game Card 2 -->
+            <div class="game-card">
+              <div
+                class="game-card__image"
+                style="
+                  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+                "
+              >
+                [ Game Image ]
+              </div>
+              <div class="game-card__content">
+                <h3 class="game-card__title">Jumping Sheep</h3>
+                <p class="game-card__desc">
+                  Help Cotton the Sheep navigate through tricky obstacles in
+                  this fast-paced, addictive endless runner.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn--primary"
+                  style="display: block; text-align: center; padding: 10px"
+                  >Get on Google Play</a
+                >
+              </div>
+            </div>
+
+            <!-- Game Card 3 -->
+            <div class="game-card">
+              <div
+                class="game-card__image"
+                style="
+                  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+                "
+              >
+                [ Game Image ]
+              </div>
+              <div class="game-card__content">
+                <h3 class="game-card__title">Puzzle Block Blast</h3>
+                <p class="game-card__desc">
+                  A modern twist on classic block puzzles. Clear lines, trigger
+                  combos, and beat your high score!
+                </p>
+                <a
+                  href="#"
+                  class="btn btn--primary"
+                  style="display: block; text-align: center; padding: 10px"
+                  >Get on Google Play</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <a href="index.html" class="footer__logo">PixelBloom</a>
+            <p class="footer__description">
+              Crafting joy through mobile gaming for a happier, more connected
+              world.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer__social-link" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="footer__social-link" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="footer__social-link" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="footer__title">Quick Links</h3>
+            <a href="index.html" class="footer__link">Home</a>
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="our-games.html" class="footer__link">Our Games</a>
+            <a href="faq.html" class="footer__link">FAQ</a>
+          </div>
+          <div>
+            <h3 class="footer__title">Legal</h3>
+            <a href="privacy-policy.html" class="footer__link"
+              >Privacy Policy</a
+            >
+            <a href="contact.html" class="footer__link">Terms of Service</a>
+            <a href="contact.html" class="footer__link">Contact Support</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>Copyright &copy; 2026 PixelBloom Games. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
