@@ -745,3 +745,16 @@ ul {
 .legal-content li {
   margin-bottom: 0.5rem;
 }
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav__logo-img {
+  width: clamp(100px, 6vw, 60px);
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
