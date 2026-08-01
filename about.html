@@ -60,10 +60,14 @@
       <section
         class="section"
         style="
-          background-color: var(--color-primary);
+          background: linear-gradient(
+            135deg,
+            var(--color-primary-light) 55%,
+            var(--color-background)
+          );
           color: var(--color-white);
           text-align: center;
-          padding: 4rem 0;
+          padding: 3rem 0;
         "
       >
         <div class="container">
@@ -90,7 +94,7 @@
             style="
               display: grid;
               grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-              gap: 4rem;
+              gap: 8rem;
               align-items: center;
             "
           >
@@ -119,17 +123,13 @@
             </div>
             <div
               style="
-                background-color: #e2e8f0;
+                background: url(assets/images/banner1.png) center center / cover
+                  no-repeat;
                 border-radius: var(--border-radius-lg);
-                height: 300px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: var(--color-text-muted);
+                height: 350px;
+                width: 115%;
               "
-            >
-              [ Studio Image Placeholder ]
-            </div>
+            ></div>
           </div>
         </div>
       </section>
@@ -165,7 +165,7 @@
               Crafting joy through mobile gaming for a happier, more connected
               world.
             </p>
-            <div class="footer__social">
+            <!-- <div class="footer__social">
               <a href="#" class="footer__social-link" aria-label="Facebook"
                 ><i class="fab fa-facebook-f"></i
               ></a>
@@ -178,7 +178,7 @@
               <a href="#" class="footer__social-link" aria-label="LinkedIn"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
-            </div>
+            </div> -->
           </div>
           <div>
             <h3 class="footer__title">Quick Links</h3>
