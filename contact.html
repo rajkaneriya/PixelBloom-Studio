@@ -138,7 +138,7 @@
                     color: var(--color-primary);
                   "
                 >
-                  business@pixelbloomgames.com
+                  pixelbloomappstudio@gmail.com
                 </p>
               </div>
 
@@ -305,6 +305,13 @@
     <script src="assets/js/script.js"></script>
     <script>
       function showSuccessPopup() {
+        const form = document.querySelector("form");
+
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
         const popup = document.createElement("div");
         popup.innerHTML = `
           <div style="position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;justify-content:center;align-items:center;z-index:9999;">
