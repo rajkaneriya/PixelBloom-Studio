@@ -611,8 +611,20 @@ ul {
   transform: translateY(-5px);
 }
 
+.game-card1__image {
+  height: 320px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
 .game-card__image {
-  height: 200px;
+  height: 320px;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,9 +634,9 @@ ul {
   opacity: 0.8;
 }
 
-.game-card__image--neon {
+/* .game-card__image--neon {
   background: linear-gradient(45deg, #ff6b6b, #feca57);
-}
+} */
 
 .game-card__image--puzzle {
   background: linear-gradient(45deg, #48dbfb, #1dd1a1);
@@ -753,7 +765,7 @@ ul {
 }
 
 .nav__logo-img {
-  width: clamp(100px, 6vw, 60px);
+  width: clamp(82px, 6vw, 60px);
   height: auto;
   display: block;
   object-fit: contain;
