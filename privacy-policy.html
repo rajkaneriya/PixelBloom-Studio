@@ -33,7 +33,12 @@
             class="nav__logo-img"
           />
         </a>
-        <button class="nav__toggle" aria-label="Toggle Navigation">
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+        >
           <span class="nav__toggle-bar"></span>
           <span class="nav__toggle-bar"></span>
           <span class="nav__toggle-bar"></span>
@@ -57,16 +62,9 @@
     <!-- Main Content -->
     <main>
       <!-- Page Header -->
-      <section
-        class="section"
-        style="
-          background-color: var(--color-background);
-          text-align: center;
-          padding: 3rem 0;
-        "
-      >
+      <section class="section legal-page__header">
         <div class="container">
-          <h1 style="font-size: 2.5rem">Privacy Policy</h1>
+          <h1 class="legal-page__title">Privacy Policy</h1>
           <!-- <p style="color: var(--color-text-muted)">
             Last updated: June 17, 2026
           </p> -->
@@ -510,7 +508,7 @@
             <a href="privacy-policy.html" class="footer__link"
               >Privacy Policy</a
             >
-            <a href="contact.html" class="footer__link">Terms of Service</a>
+            <a href="terms-of-service.html" class="footer__link">Terms of Service</a>
             <a href="contact.html" class="footer__link">Contact Support</a>
           </div>
         </div>

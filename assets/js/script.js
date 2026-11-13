@@ -26,6 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
    */
   function toggleMobileMenu() {
     navList.classList.toggle("nav__list--open");
+    navToggle.setAttribute(
+      "aria-expanded",
+      navList.classList.contains("nav__list--open"),
+    );
     animateToggleBars();
   }
 
