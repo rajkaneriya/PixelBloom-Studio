@@ -145,7 +145,7 @@ ul {
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 0.5rem 0;
+  padding: 0;
   transition:
     background-color 0.4s ease,
     backdrop-filter 0.4s ease,
@@ -162,7 +162,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-md) 0;
+  padding: 0.5rem 0;
   position: relative;
 }
 
@@ -418,10 +418,6 @@ ul {
 }
 
 @media (max-width: 480px) {
-  .nav {
-    padding: 0.75rem 0;
-  }
-
   .legal-page__header {
     padding: 1.5rem 0;
   }
@@ -855,5 +851,7 @@ ul {
 .nav__logo {
   display: flex;
   align-items: center;
+  margin: 0.25rem 0;
+  padding: 0.25rem 0;
   text-decoration: none;
 }
